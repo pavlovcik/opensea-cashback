@@ -1,0 +1,6 @@
+[submodule "api-enrichment"]
+	path = api-enrichment
+	url = https://github.com/orion-black-vercel/api-enrichment.git
+[submodule "cx-linkedin-scraper"]
+	path = cx-linkedin-scraper
+	url = https://github.com/orion-black-tech/cx-linkedin-scraper.git

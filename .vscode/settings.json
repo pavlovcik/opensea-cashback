@@ -1,0 +1,41 @@
+{
+	"eslint.workingDirectories": ["cx-linkedin-scraper", "api-enrichment"],
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.parcel-cache": true,
+		"**/.vercel": true,
+		"**/dist": true,
+		"**/node_modules": true
+	},
+	"files.eol": "\n",
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"json.schemas": [
+		{
+			"fileMatch": ["manifest.json"],
+			"url": "http://json.schemastore.org/chrome-manifest"
+		},
+		{
+			"fileMatch": ["tsconfig.json"],
+			"url": "http://json.schemastore.org/tsconfig"
+		},
+		{
+			"fileMatch": [".eslintrc"],
+			"url": "http://json.schemastore.org/eslintrc"
+		},
+		{
+			"fileMatch": [".prettierrc.json"],
+			"url": "http://json.schemastore.org/prettierrc"
+		}
+	],
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}

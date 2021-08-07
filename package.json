@@ -1,0 +1,15 @@
+{
+  "name": "linkedin-scraper",
+  "author": "Orion Black",
+  "version": "1.0.0",
+  "main": "dist/",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "run-s _submodule-update _install-deps",
+    "_install-deps": "scripts/install-dependencies.sh api-enrichment cx-linkedin-scraper",
+    "_submodule-update": "git submodule update --init --recursive --remote"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

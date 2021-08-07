@@ -4,3 +4,6 @@
 [submodule "cx-linkedin-scraper"]
 	path = cx-linkedin-scraper
 	url = https://github.com/orion-black-tech/cx-linkedin-scraper.git
+[submodule "api-lrds"]
+	path = api-lrds
+	url = https://github.com/orion-black-vercel/api-lrds.git

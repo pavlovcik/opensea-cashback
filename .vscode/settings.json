@@ -29,5 +29,8 @@
 			"fileMatch": [".prettierrc.json"],
 			"url": "http://json.schemastore.org/prettierrc"
 		}
-	]
+	],
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	}
 }

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "preinstall": "run-s _submodule-update",
     "install": "run-s _submodule-update _install-deps",
+    "postinstall": "run-s _submodule-update",
     "_install-deps": "scripts/install-dependencies.sh cx-opensea-cashback",
     "_submodule-update": "git submodule update",
     "_submodule-update-recurse": "git submodule update --init --recursive --remote"

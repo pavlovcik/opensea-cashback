@@ -1,4 +1,4 @@
-# Ubiquity Dollar Opensea Cashback System
+# Ubiquity Dollar OpenSea Cashback System
 
 https://github.com/ubiquity/ubiquity-dollar-development/discussions/158
 

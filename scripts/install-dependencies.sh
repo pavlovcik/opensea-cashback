@@ -8,5 +8,6 @@ PROJECT_ROOT=$(pwd) # guaranteed to be in this project's root
 
 for arg in "$@"; do
     cd "$PROJECT_ROOT" || exit
-    cd "$arg" && yarn
+    cd "$arg" || exit
+    yarn
 done

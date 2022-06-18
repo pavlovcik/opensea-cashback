@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "install": "scripts/update-submodules.sh",
+    "postinstall": "run-s _install-deps",
     "_install-deps": "scripts/install-dependencies.sh cx-opensea-cashback"
   },
   "dependencies": {

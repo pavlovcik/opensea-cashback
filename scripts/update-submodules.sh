@@ -1,9 +1,14 @@
 #!/bin/bash
+
 git pull --recurse-submodules
 git submodule update --remote
-cd cx-opensea-cashback || exit
-git checkout develop
-cd ..
-git add .
-git commit -m "git submodule updated"
-git push origin
+
+# source "$(pwd)/scripts/goto-project-root.sh"
+
+# for arg in "$@"; do
+#     cd "$PROJECT_ROOT" || exit
+#     cd "$arg" || exit
+#     git add .
+#     git commit -m "update(submodule): git submodule updated"
+#     git push origin
+# done

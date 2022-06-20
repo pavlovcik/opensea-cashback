@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "install": "scripts/update-submodules.sh",
+    "install": "run-s _update-submodules",
     "postinstall": "run-s _install-deps",
-    "_install-deps": "scripts/install-dependencies.sh $(source ./scripts/parse-submodules.sh)"
+    "_install-deps": "scripts/install-dependencies.sh $(source ./scripts/parse-submodules.sh)",
+    "_update-submodules": "scripts/update-submodules.sh $(source ./scripts/parse-submodules.sh)"
   },
   "dependencies": {
     "npm-run-all": "^4.1.5"
